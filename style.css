@@ -1,0 +1,224 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    margin:0px;
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+main{
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-right: 40px;
+    width: 958px;
+    height: auto;
+}
+aside{
+    align-items: center;
+    background-color: var(--body-bg-color);
+    margin: 20px 60px 0px 40px;
+    width: 348px;
+    height: auto;
+}
+li{
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0px;
+    margin-top: 20px;
+}
+dl{
+    font-weight:300;
+    font-size: 12px;
+    margin:0px;
+}
+a:link{
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+color: var(--text-color);
+}
+a:visited{
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+color: var(--text-color);
+}
+a:hover{
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+color: var(--text-color);
+}
+a:active{
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: var(--text-color);
+}
+.aside-cards{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px
+    rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    width: 348px;
+    height: auto;
+    box-sizing:border-box
+}
+.links-box{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    box-sizing:border-box;
+    padding: 2px;
+    border-radius: 20px;
+    margin:10px 20px;
+}
+.link-icons{
+    width: 24px;
+    height: 24px ;
+    text-align: center;
+    margin: 0px;
+    padding-right: 20px;
+}
+.header-card{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px
+    rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-sizing:border-box;
+}
+#my-projects{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 86px;
+    width: 952px;
+    text-align: start;
+    justify-content: center;
+    padding: 30px 0px 30px 30px;
+}
+#my-projects-text{
+    text-align: start;
+    font-size: 20px;
+    font-weight: 700;
+}
+.projects-cards{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px
+    rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-sizing:border-box;
+}
+#project-format{
+    display: flex;
+    flex-direction: column;
+    height: 186px;
+    width: 46%;
+    text-align: start;
+    padding: 30px 0px 30px 30px;
+}
+.project-title{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+}
+.folder-icon{
+    display: flex;
+    padding-right: 16px;
+}
+.projects-container{
+    display: flex;
+    justify-content: space-between;
+    vertical-align:middle;
+    width: auto;
+    height: auto;
+    padding: 30px;
+
+}
+#profile-card{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:348px;
+    height: 292px;
+}
+#profile-picture{
+    display: flex;
+    border: #0c9b0c solid;
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    margin: 32px 110px 30px 110px;
+}
+#name{
+    font-size: 23px;
+    margin:0px 0px 10px 0px;
+}
+#specialization{
+    font-size: 13px;
+    margin: 0px 0px 49px 0px;
+}
+
+#location,#workplace{
+    width: 100px;
+}
+#github{
+    width: 175px;
+}
+#linkedin{
+    width: 225px;
+}
+#instagram{
+    width: 185px;
+}
+#email{
+    width: 310px;
+}
+
+#technologies{
+    display: flex;
+    align-items: start;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#tech-logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#experience-card,#studies-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+#experience-title,#studies-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+#experience-list,#studies-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
